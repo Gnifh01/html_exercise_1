@@ -1,0 +1,129 @@
+@import url(//db.onlinewebfonts.com/c/3516b742bdc18fcfacf8c27ed2cdea67?family=Chlakh);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #d9efe8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.navbar h1 {
+    color: #000;
+    font-size: 5rem;
+    font-family: 'Chlakh', sans-serif;
+}
+
+#frist-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#frist-section .container {
+    width: 50rem;
+    height: 100%;
+    margin-top: 6rem;
+    padding: 2.5rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#frist-section .container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#frist-section .container h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+    font-family: 'Chlakh', sans-serif;
+}
+
+#frist-section .container p {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+#second-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#second-section .container {
+    width: 55rem;
+    height: 100%;
+    margin-top: 6rem;
+    padding: 2.4rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#second-section .container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#second-section .container form h2 {
+    font-size: 2.5rem;
+    font-family: 'Chlakh', sans-serif;
+}
+
+#second-section .container form input {
+    margin-top: 2rem;
+    padding: 1rem 1.2rem;
+    width: 35rem;
+    border: 1px solid #d9efe8;
+    border-radius: 10px;
+    outline: none;
+}
+
+#second-section .container form input:focus {
+    outline: 1.5px solid #99f5d8;
+}
+
+#second-section .container form button {
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    background-color: transparent;
+    border: 1px solid #d9efe8;
+    border-radius: 10px;
+    font-family: 'Chlakh', sans-serif;
+}
+
+#second-section .container form button:hover {
+    outline: 1.5px solid #99f5d8;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    color: #000;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-family: 'Chlakh', sans-serif;
+}
+
+
