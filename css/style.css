@@ -6,7 +6,10 @@
     url("http://db.onlinewebfonts.com/t/3516b742bdc18fcfacf8c27ed2cdea67.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
     url("http://db.onlinewebfonts.com/t/3516b742bdc18fcfacf8c27ed2cdea67.svg#Chlakh") format("svg"); /* iOS 4.1- */
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+}
 
 * {
     padding: 0;
