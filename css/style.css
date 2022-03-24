@@ -1,4 +1,11 @@
-@import url('https://db.onlinewebfonts.com/c/3516b742bdc18fcfacf8c27ed2cdea67?family=Chlakh');
+@font-face {font-family: "Chlakh";
+    src: url("http://db.onlinewebfonts.com/t/3516b742bdc18fcfacf8c27ed2cdea67.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/3516b742bdc18fcfacf8c27ed2cdea67.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/3516b742bdc18fcfacf8c27ed2cdea67.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/3516b742bdc18fcfacf8c27ed2cdea67.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/3516b742bdc18fcfacf8c27ed2cdea67.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/3516b742bdc18fcfacf8c27ed2cdea67.svg#Chlakh") format("svg"); /* iOS 4.1- */
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 * {
