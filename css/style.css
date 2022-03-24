@@ -94,6 +94,10 @@ body {
     font-family: 'Chlakh', sans-serif;
 }
 
+#second-section .container form h2::selection {
+    background-color: #99f5d8;
+}
+
 #second-section .container form input {
     margin-top: 2rem;
     padding: 1rem 1.2rem;
