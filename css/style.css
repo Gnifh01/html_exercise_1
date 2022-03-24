@@ -61,6 +61,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#frist-section .container h1::selection,
+#frist-section .container p::selection {
+    background-color: #99f5d8;
+}
+
 #second-section {
     display: flex;
     align-items: center;
